@@ -1,0 +1,7 @@
+*.vvp
+*.vcd
+sim_build/
+results.xml
+__pycache__/
+*.pyc
+.DS_Store
