@@ -116,9 +116,16 @@ RISCV_DMA/
 └── README.md
 ```
 
+## How this was built
+
+This DMA controller was written quickly with AI assistance (Claude Code) in March 2026, from a written specification, as one
+of a set of SoC components. Its testbenches pass as described above, but unlike the
+[5-stage core](https://github.com/BrendanJamesLynskey/RISCV_RV32IMC_5stage), which I have since reviewed line by line
+and re-verified, it has not had that review: treat it as a working sketch rather than verified IP.
+
 ## Author
 
-Brendan Lynskey 2025
+Brendan Lynskey 2026
 
 ## Licence
 
